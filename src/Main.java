@@ -21,6 +21,7 @@ public class Main {
             }
             int compChoice = random.nextInt(3);//Генерирует случайный индекс от 0 до размера массива
             System.out.println("Выбор игрока: " + choices[playerChoice] + "<->" + "Выбор компьютера: " + choices[compChoice]);
+
             if (playerChoice == compChoice) {
                 System.out.println("Ничья");
             } else if (playerChoice == 0 && compChoice == 1 || playerChoice == 1 && compChoice == 2 || playerChoice == 2 && compChoice == 0) {
