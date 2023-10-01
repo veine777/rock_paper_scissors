@@ -19,7 +19,8 @@ public class Main {
             if (playerChoice == 3) {
                 break;
             }
-            int compChoice = random.nextInt(3);//Генерирует случайный индекс от 0 до размера массива
+            //Генератор случайного индекса от 0 до размера массива
+            int compChoice = random.nextInt(3);
             System.out.println("Выбор игрока: " + choices[playerChoice] + "<->" + "Выбор компьютера: " + choices[compChoice]);
 
             if (playerChoice == compChoice) {
